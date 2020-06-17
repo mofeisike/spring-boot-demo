@@ -1,0 +1,8 @@
+#测试环境跨域
+spring:
+   cors:
+     allowOrigin:
+     allowMethods: POST,PUT,GET,OPTIONS,DELETE,PATCH
+     allowHeaders: Authorization,Content-Type
+     allowCredentials: false
+     maxAge: 3600
